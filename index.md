@@ -1,4 +1,9 @@
+Group Member: Jiangwen Wei, Yue Cao, Yilin Wang, Xiangchao Wang
 
-## 1 Introduction
-### 1.1 Motivation
-### 1.2 Specific Goals
+#
+
+---------------------
+## Introduction
+### Motivation
+### Specific Goals
+---------------------
