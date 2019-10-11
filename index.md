@@ -1,8 +1,5 @@
 ### Group Member: 
-####              [Dylan Wang](yilinw2@andrew.cmu.edu)
-####              [Jiangwen Wei]()
-####              [Yue Cao](yuec3@andrew.cmu.edu)
-####              [Xiangchao Wang]()
+#### [Dylan Wang](mailto:yilinw2@andrew.cmu.edu),[Jiangwen Wei](),[Yue Cao](mailto:yuec3@andrew.cmu.edu),[Xiangchao Wang]()
 
 ### [Progress Report](https://dylan-wyl10.github.io/12740/index.html)
 ### [video]()
