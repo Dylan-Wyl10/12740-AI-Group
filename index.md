@@ -23,8 +23,8 @@ Group Member: Jiangwen Wei, Yue Cao, Yilin Wang, Xiangchao Wang
 
 - Describe the signal conditioning and processing procedures
 ---------------------
-### Experiments and Results
+## Experiments and Results
 - Describe the experiments you did and present the results; Use tables and plots if possible
 ---------------------
-### Discussion
+## Discussion
 - Discuss the insights from the project
