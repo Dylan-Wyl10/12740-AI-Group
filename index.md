@@ -5,37 +5,32 @@
 ### [Video]()
 
 ---------------------
-## Introduction
+## 1. Introduction
 
 
-### Motivation
+### 1.1 Motivation
 
-### Specific Goals
+### 1.2 Specific Goals
 ---------------------
-## Methodolgy
+## 2. Methodolgy
 
-### Phenomena of Interest
+### 2.1 Phenomena of Interest
 
-- Describe the physical phenomena of interest, e.g. physical principles, static and dynamic behavior, and signal characteristics
+### 2.2 Sensor(s) Used
 
-### Sensor(s) Used
+### 2.3 Signal Conditioning and Processing
 
-- des
+### 2.4 Sampling and Quantization
 
-### Signal Conditioning and Processing
-
-- Describe the signal conditioning and processing procedures
+### 2.5 Signal Processing
 
 ---------------------
 
-## Experiments and Results
-
-- Describe the experiments you did and present the results; Use tables and plots if possible
+## 3. Experiments and Results
 
 ---------------------
-## Discussion
+## 4. Discussion
 
-- Discuss the insights from the project
 
 ```markdown
 import numpy as np
