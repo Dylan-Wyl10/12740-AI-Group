@@ -33,5 +33,7 @@ Group Member: Jiangwen Wei, Yue Cao, Yilin Wang, Xiangchao Wang
 
 - Discuss the insights from the project
 
-''''markdown
+```markdown
+import numpy as np
+
 
