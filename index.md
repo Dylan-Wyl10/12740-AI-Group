@@ -15,6 +15,8 @@
 
 ![image012%E7%9A%84%E5%89%AF%E6%9C%AC](https://github.com/Dylan-Wyl10/12740-AI-Group/blob/master/image012%E7%9A%84%E5%89%AF%E6%9C%AC.jpg)
 
+<p><img src="https://github.com/Dylan-Wyl10/12740-AI-Group/blob/master/image012%E7%9A%84%E5%89%AF%E6%9C%AC.jpg" /></p>
+
 >                                  Figure 1-1 Diagrammatic sketch for the Smart Aquarium
 
 * The 
