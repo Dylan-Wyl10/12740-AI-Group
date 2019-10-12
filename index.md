@@ -2,6 +2,8 @@
 # Smart Aquarium
 ## 12740-F19-Project
 
+Item zip
+
 ### Group Member: 
 #### [Dylan Wang](mailto:yilinw2@andrew.cmu.edu), [Jiangwen Wei](mailto:jiangwew@andrew.cmu.edu), [Yue Cao](mailto:yuec3@andrew.cmu.edu), [Xiangchao Wang](mailto:xiangchw@andrew.cmu.edu)
 
