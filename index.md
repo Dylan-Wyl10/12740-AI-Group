@@ -35,12 +35,9 @@
 ```markdown
 
 `import numpy as np`
-
-`def indf():
-
-    eee
-    
-    eee
+`def indf():`
+    `eee`
+    `eee`
     `
 
 
