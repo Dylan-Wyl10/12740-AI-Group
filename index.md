@@ -1,7 +1,7 @@
 ### Group Member: 
 #### [Dylan Wang](mailto:yilinw2@andrew.cmu.edu), [Jiangwen Wei](mailto:jiangwew@andrew.cmu.edu), [Yue Cao](mailto:yuec3@andrew.cmu.edu), [Xiangchao Wang](mailto:xiangchw@andrew.cmu.edu)
 
-### [Progress Report](https://dylan-wyl10.github.io/12740/index.html)
+### [Progress report for the first two weeks](https://dylan-wyl10.github.io/12740/index.html)
 ### [Video]()
 
 ---------------------
@@ -35,10 +35,11 @@
 
 ```markdown
 
-`import numpy as np`
-`def indf():`
-    `eee`
-    `eee`
-    `
+import numpy as np
+def indf():
+    eee
+    eee
+    
+```
 
 
