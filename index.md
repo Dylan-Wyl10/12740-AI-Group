@@ -11,7 +11,7 @@
 
 ![image012.png](https://github.com/Dylan-Wyl10/12740-AI-Group/blob/master/image012.png)
 
--                                    Figure 1-1 Diagrammatic sketch for the Smart Aquarium
+>                                  Figure 1-1 Diagrammatic sketch for the Smart Aquarium
 
 * The 
 
