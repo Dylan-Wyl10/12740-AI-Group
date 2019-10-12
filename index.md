@@ -13,11 +13,11 @@
 
 * People in the city are living far away from natural at present. The city, fulfilled with concrete and steels, isolates the communication between man and nature. In order to ameliorate this situation, we are going to create a domestic micro biosystem that provide a chance for people to get in touch with the nature at home. The smart micro-biosystem called “Smart Aquarium” that can detect and feedback upon the environmental changes with four types of sensors. It contains water and soil environment which is supposed to react individually to the environment changes through a programmed control center(Figure 1-1). 
 
-<p><img src="https://github.com/Dylan-Wyl10/12740-AI-Group/blob/master/image012%E7%9A%84%E5%89%AF%E6%9C%AC.jpg" alt="visualization" /></p>
+<p><img src="/12740-AI-Group/blob/master/image012%E7%9A%84%E5%89%AF%E6%9C%AC.jpg" alt="visualization" /></p>
 
 -                              Figure 1-1 Diagrammatic sketch for the Smart Aquarium
 
-* The 
+* The Smart Aquarium can be divided as two parts: Sensor part and Feedback part. A Raspberry Pi is used as a “brain” to process the data from sensors and multiple the relay to control the feedback circuit with Python code. The system was established by a water level sensor, a photosensitive light sensor, an infrared sensor and a temperature & Humidity sensor. The dump will be controlled by a relay based on the data collect from water level sensor. A LED strip was used as a phenomena light resources when the infrared sensor detected the motion of people coming near the tank. 
 
 ### 1.1 Motivation
 
