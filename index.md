@@ -5,10 +5,10 @@
 ### Group Member: 
 
 <div class="test">
-    <img src="/Pht/YLW.JPG" alt="visualization" width="100" height="75" />
-    <img src="/Pht/JWW.jpg" alt="visualization" width="100" height="80" />
-    <img src="/Pht/YC.JPG" alt="visualization" width="100" height="75" />
-    <img src="/Pht/XCW.JPG" alt="visualization" width="100" height="73" />
+    <img src="Pht/YLW.JPG" alt="visualization" width="100" height="75" />
+    <img src="Pht/JWW.jpg" alt="visualization" width="100" height="80" />
+    <img src="Pht/YC.JPG" alt="visualization" width="100" height="75" />
+    <img src="Pht/XCW.JPG" alt="visualization" width="100" height="73" />
 </div>
     
 #### [Yilin Wang](mailto:yilinw2@andrew.cmu.edu), [Jiangwen Wei](mailto:jiangwew@andrew.cmu.edu), [Yue Cao](mailto:yuec3@andrew.cmu.edu), [Xiangchao Wang](mailto:xiangchw@andrew.cmu.edu)
