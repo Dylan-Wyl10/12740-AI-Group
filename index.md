@@ -30,6 +30,8 @@
 
 ### 1.1 Motivation
 
+*Sensors utilize a wide spectrum of transducer and signal transformation approaches with corresponding variations in technical complexity(). It conveys a physical input with an electrical or optical signals in an interst of detecting which stimulate the control system finishing a further reaction. Sensors, playing a role as the bond of computer- environment interaction, are the fundamental parts for the computer to measure the environment. AI Group, consisting of four master students in CEE, aims to explore the impact of sensor technology on the future domestic life.
+
 ### 1.2 Specific Goals
 ---------------------
 ## 2. Methodolgy
