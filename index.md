@@ -36,20 +36,24 @@
 
 * Our objective is to multiple sensors implementing the concepts learned in Data Acquisition course with an Raspberry Pi, and design a complete system with a loop of censoring and feedback. The supporting goals are:
 
-1). Using RPI to collect data from the dht11-Tem & Humidity Sensor. 
+    1). Using RPI to collect data from the dht11-Tem & Humidity Sensor. 
 
-2). Mutipling the relay with Raspberry Pi in Python code, then modify relay into the circuit to finish the entire "Feedbace Loop. 
+    2). Mutipling the relay with Raspberry Pi in Python code, then modify relay into the circuit to finish the entire "Feedbace Loop. 
 
-3). Conneting the water level sensor and photosensitive light sensor with an ADC analog. Then programming the sensor to detect the water level in the tank and give orders to the dump. An incandescent lamp will open up whent he light sensor detects the ambient light is weakdark to provide supplementary light for photosynthesis. 
+    3). Conneting the water level sensor and photosensitive light sensor with an ADC analog. Then programming the sensor to detect the water level in the tank and give orders to the dump. An incandescent lamp will open up whent he light sensor detects the ambient light is weakdark to provide supplementary light for photosynthesis. 
 
-
+    4). Achieving a multi - sensor work system. 
 
 ---------------------
-## 2. Methodolgy
+## 2. Methodology 
 
-### 2.1 Phenomena of Interest
+### 2.1 Sensor(s) Review
 
-### 2.2 Sensor(s) Used
+#### 2.1.1 Water Level Sensor
+
+##### Working Principle
+
+##### Signal Character
 
 ### 2.3 Signal Conditioning and Processing
 
