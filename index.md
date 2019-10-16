@@ -175,7 +175,7 @@ Max During Measuring | 2.5mA
 * A four way relay(Figure 2-7) will be used to control the feedback loop such as dump, LED light strip and light supply lamp when the RPI outputs a change of voltage to the repay after processing the data from each sensors. 
 
 <div style="text-align: center">
-<img src="Report/Relay-2,jpg"/>
+<img src="Report/Relay-2.jpg"/>
 </div>
 
 <center>
