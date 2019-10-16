@@ -26,13 +26,16 @@
 
 -                              Figure 1-1 Diagrammatic sketch for the Smart Aquarium
 
-* The Smart Aquarium can be divided as two parts: Sensor part and Feedback part. A Raspberry Pi is used as a “brain” to process the data from sensors and multiple the relay to control the feedback circuit with Python code. The system was established by a water level sensor, a photosensitive light sensor, an infrared sensor and a temperature & Humidity sensor. The dump will be controlled by a relay based on the data collect from water level sensor. A LED strip was used as a phenomena light resources when the infrared sensor detected the motion of people coming near the tank. 
+* The Smart Aquarium can be divided as two parts: Sensor part and Feedback part. A Raspberry Pi is used as a “brain” to process the data from sensors and multiple the relay to control the feedback circuit with Python code. The system was established by a water level sensor, a photosensitive light sensor, an infrared sensor and a temperature & Humidity sensor. The dump will be controlled by a relay based on the data collect from water level sensor. An LED strip was used as a phenomena light resources when the infrared sensor detected the motion of people coming near the tank. 
 
 ### 1.1 Motivation
 
-*Sensors utilize a wide spectrum of transducer and signal transformation approaches with corresponding variations in technical complexity(). It conveys a physical input with an electrical or optical signals in an interst of detecting which stimulate the control system finishing a further reaction. Sensors, playing a role as the bond of computer- environment interaction, are the fundamental parts for the computer to measure the environment. AI Group, consisting of four master students in CEE, aims to explore the impact of sensor technology on the future domestic life.
+* Sensors utilize a wide spectrum of transducer and signal transformation approaches with corresponding variations in technical complexity(). It conveys a physical input with an electrical or optical signals in an interst of detecting which stimulate the control system finishing a further reaction. Sensors, playing a role as the bond of computer- environment interaction, are the fundamental parts for the computer to measure the environment. AI Group, consisting of four master students in CEE, aims to explore the impact of sensor technology on the future domestic life. By designing a micro-biosystem which smartly responses to the surroundings and gives a feedback accordingly, the group tries to convey the idea of achieving the co-existence of man and nature with advance technologies. Furthermore, they will gain a great experience in applying sensors into real life. Raspberry Pi, a commonly used microcomputer, is used as a central control system for the demo which is able to monitor the humidity and temperature changes in the micro-ecosystem, detect the human motion around itself and react by lighting LED strip up, or change the water in the system automatically. 
 
 ### 1.2 Specific Goals
+
+*
+
 ---------------------
 ## 2. Methodolgy
 
