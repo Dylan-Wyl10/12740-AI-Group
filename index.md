@@ -89,6 +89,22 @@
    Figure 2-? DHT11
 </center>
 
+* The DHT11 detects water vapor by measuring the electrical resistance between two electrodes. The humidity sensing component is a moisture holding substrate with electrodes applied to the surface. When water vapor is absorbed by the substrate, ions are released by the substrate which increases the conductivity between the electrodes. The change in resistance between the two electrodes is proportional to the relative humidity. Higher relative humidity decreases the resistance between the electrodes, while lower relative humidity increases the resistance between the electrodes.
+
+<center>
+   Table 2-? Details about DHT-11
+</center>
+
+Measurement Variable | DHT-11
+------------ | -------------
+Temperature Range | 0-50℃ ±2℃
+Humidity Range | 20%-80% ± 5%
+Sampling Rate | 1Hz
+Body Size | 15.5mm×12mm×5.5mm
+Operating Voltage | 3.5V
+Max During Measuring | 2.5mA
+
+
 
 ##### Signal Character
 
