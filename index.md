@@ -93,14 +93,47 @@ Compatible with SainSmart UNO SainSmart mega2560 SainSmart ADK etc.
 </div>
 
 <center>
-   Figure 2-3 Working Principle of PIR Motion Sensor 
+   Figure 2-3 Working Principle of PIR Motion Sensor[[2]]
 </center>
 
-##### Signal Character
+* The specific details for PIR Motion Sensor is showed on Table 2-1: 
+
+<center>
+   Table 2-1 Details about PIR Motion Sensor[[2]](http://kookye.com/2018/11/06/arduino-lesson-pir-motion-sensor/)
+</center>
+
+Pin or Control | Function
+------------ | -------------
+Working voltage | 4.5V to 20V
+Output | High: 3.3V, Low: 0V
+Detection angle | Approximately 120 degrees
+Range | Adjustable 3 to 7 meters 
+Digital Output Pin | Low when no motion is detected. High when motion is detected. High is 3.3V
+Power Pin | 4.5 to 20 VDC Supply input
 
 #### 2.2.3 Photosensitive Light Sensor 
 
 ##### Working Principle
+
+* The photosensitive light sensor use a photoresistor (Figure 2-4) to transfer the light changes into resistive value based on how much light is shining onto the squiggly face. The resistance of a photoresistor ture to a few ohms when it is dark outside and a few hundred ohms as well as a lightening environment. The graph showed on Figure 2-5 indicates approximately the resistance of the sensor at different light levels.[[3]](http://kookye.com/2018/11/16/arduino-lesson-sound-detection-sensor-2/)
+
+<div style="text-align: center">
+<img src="Report/lightresistor.png"/>
+</div>
+
+<center>
+   Figure 2-4 Photoresistor in sensitive light sensor[3]
+</center>
+
+* Figure 2-5 from [reference 3](http://kookye.com/2018/11/16/arduino-lesson-sound-detection-sensor-2/) shows the resistance of the sensor and the output voltage.
+
+<div style="text-align: center">
+<img src="Report/photoresistorplot.jpg"/>
+</div>
+
+<center>
+   Figure 2-5 Photoresistor in sensitive light sensor[3]
+</center>
 
 ##### Signal Character
 
