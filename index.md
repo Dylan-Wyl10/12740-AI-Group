@@ -141,20 +141,20 @@ Power Pin | 4.5 to 20 VDC Supply input
 
 ##### Working Principle
 
-* The DHT11 is a basic, ultra low-cost digital temperature and humidity sensor. It uses a capacitive humidity sensor and a thermistor to measure the surrounding air, and spits out a digital signal on the data pin (no analog input pins needed).[[2]](http://kookye.com/2018/11/16/arduino-lesson-dht11-sensor/)
+* The DHT11(Figure 2-6) is a basic, ultra low-cost digital temperature and humidity sensor. It uses a capacitive humidity sensor and a thermistor to measure the surrounding air, and spits out a digital signal on the data pin (no analog input pins needed).[[4]](http://kookye.com/2018/11/16/arduino-lesson-dht11-sensor/)
 
 <div style="text-align: center">
 <img src="Report/dht11-1.jpg"/>
 </div>
 
 <center>
-   Figure 2-? DHT11
+   Figure 2-6 DHT11
 </center>
 
 * The DHT11 detects water vapor by measuring the electrical resistance between two electrodes. The humidity sensing component is a moisture holding substrate with electrodes applied to the surface. When water vapor is absorbed by the substrate, ions are released by the substrate which increases the conductivity between the electrodes. The change in resistance between the two electrodes is proportional to the relative humidity. Higher relative humidity decreases the resistance between the electrodes, while lower relative humidity increases the resistance between the electrodes.
 
 <center>
-   Table 2-? Details about DHT-11
+   Table 2-2 Details about DHT-11
 </center>
 
 Measurement Variable | DHT-11
@@ -167,6 +167,21 @@ Operating Voltage | 3.5V
 Max During Measuring | 2.5mA
 
 ### 2.3 Circuit Connect
+
+#### 2.3.1 Relay Circuit 
+
+* Relays are electromechanical devices that use an electromagnet to operate a pair of movable contacts from an open position to a closed position. Relays are used where it is necessary to control a circuit by an independent low-power signal, or where several circuits must be controlled by one signal. Relays were first used in long-distance telegraph circuits as signal repeaters: they refresh the signal coming in from one circuit by transmitting it on another circuit. Relays were used extensively in telephone exchanges and early computers to perform logical operations.[[5]](https://en.wikipedia.org/wiki/Relay))
+
+* A four way relay(Figure 2-7) will be used to control the feedback loop such as dump, LED light strip and light supply lamp when the RPI outputs a change of voltage to the repay after processing the data from each sensors. 
+
+<div style="text-align: center">
+<img src="Report/Relay-2,jpg"/>
+</div>
+
+<center>
+   Figure 2-7 Four Way Relay in Circuit 
+</center>
+
 
 ### 2.4 Demo Construction
 
