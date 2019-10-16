@@ -85,7 +85,9 @@
     <img src="Report/dht11-1.jpg" alt="visualization" />
 </div>
 
-- Figure 2-? DHT11
+<center>
+    Figure 2-? DHT11
+</center>
 
 ##### Signal Character
 
