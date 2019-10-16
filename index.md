@@ -5,13 +5,13 @@
 ### Group Member: 
 
 <div class="test">
-    <img src="Pht/YLW.JPG" alt="visualization" width="120" height="90" />
-    <img src="Pht/JWW.jpg" alt="visualization" width="120" height="91" />
-    <img src="Pht/YC.JPG" alt="visualization" width="120" height="90" />
-    <img src="Pht/XCW.JPG" alt="visualization" width="120" height="90" />
+    <img src="Pht/YLW.JPG" alt="visualization" width="100" height="75" />
+    <img src="Pht/JWW.jpg" alt="visualization" width="100" height="80" />
+    <img src="Pht/YC.JPG" alt="visualization" width="100" height="75" />
+    <img src="Pht/XCW.JPG" alt="visualization" width="100" height="73" />
 </div>
     
-#### [Yilin Wang  ](mailto:yilinw2@andrew.cmu.edu), [Jiangwen Wei  ](mailto:jiangwew@andrew.cmu.edu),  [Yue Cao  ](mailto:yuec3@andrew.cmu.edu),  [Xiangchao Wang  ](mailto:xiangchw@andrew.cmu.edu)
+#### [Yilin Wang](mailto:yilinw2@andrew.cmu.edu), [Jiangwen Wei](mailto:jiangwew@andrew.cmu.edu), [Yue Cao](mailto:yuec3@andrew.cmu.edu), [Xiangchao Wang](mailto:xiangchw@andrew.cmu.edu)
 
 ### [Progress report for the first two weeks](https://dylan-wyl10.github.io/12740/index.html)
 ### [Progress report for week(Oct.6th - Oct.14th)]()
@@ -34,7 +34,9 @@
 
 ### 1.2 Specific Goals
 
-*
+* Our objective is to multiple sensors implementing the concepts learned in Data Acquisition course with an Raspberry Pi, and design a complete system with a loop of censoring and feedback. The supporting goals are:
+
+1. Using 
 
 ---------------------
 ## 2. Methodolgy
