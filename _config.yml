@@ -1,1 +1,5 @@
 theme: jekyll-theme-minimal
+title: Smart Aquarium(Demo mirco-system)
+logo: xxx
+description: A mirco-ecosystem suppoorted by sensors and a Resperberry Pi
+show_downloads: true
