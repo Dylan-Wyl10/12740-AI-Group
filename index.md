@@ -47,6 +47,10 @@
 ---------------------
 ## 2. Methodology 
 
+### 2.1 Phenomena of Interest
+
+* The aquarium, which can  will be placed somewhere in the host's house
+
 ### 2.1 Sensor(s) Review
 
 #### 2.1.1 Water Level Sensor
