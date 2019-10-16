@@ -81,10 +81,10 @@
 
 * The DHT11 is a basic, ultra low-cost digital temperature and humidity sensor. It uses a capacitive humidity sensor and a thermistor to measure the surrounding air, and spits out a digital signal on the data pin (no analog input pins needed).[[1]](http://kookye.com/2018/11/16/arduino-lesson-dht11-sensor/)
 
- <div align=center>
-    <img src="Report/dht11-1.jpg" alt="visualization" />
- </div>
-
+<div class="center">
+    <img src="Report/dht11-1.jpg" xss=removed />
+</div>
+ 
  <center>
     Figure 2-? DHT11
  </center>
