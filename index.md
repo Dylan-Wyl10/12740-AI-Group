@@ -59,31 +59,46 @@
    Figure 2-1 Graph for System Working Princple
 </center>
 
-### 2.1 Sensor(s) Review
+### 2.2 Sensor(s) Review
 
-#### 2.1.1 Water Level Sensor
+#### 2.2.1 Water Level Sensor
+
+##### Working Principle
+
+* The Arduino Lesson water sensor is an easily used sensor to detect water with a principle of resistor[[1]](http://kookye.com/2018/11/06/arduino-lesson-water-sensor/). It is tiny and easily installed with the following features: 
+
+    1).Judge the water level through with a series of exposed parallel wires stitch to measure the water droplet/water size.
+    2).Can easily change the water size to analog signal, and output analog value can directly be used in the program function, then to achieve the function of water level alarm.
+    3).Low power consumption, and high sensitivity, which are the biggest characteristics of this mdoule.
+Compatible with SainSmart UNO SainSmart mega2560 SainSmart ADK etc.
+
+<div style="text-align: center">
+<img src="Report/watersensor-1.jpg"/>
+</div>
+
+<center>
+   Figure 2-2 Water Level Sensor 
+</center>
+
+##### Signal Character
+
+#### 2.2.2 Infrared Motion Sensor
 
 ##### Working Principle
 
 ##### Signal Character
 
-#### 2.1.2 Infrared Motion Sensor
+#### 2.2.3 Photosensitive Light Sensor 
 
 ##### Working Principle
 
 ##### Signal Character
 
-#### 2.1.3 Photosensitive Light Sensor 
+#### 2.2.4 Temperature and Humidity Sensor(DHT11)
 
 ##### Working Principle
 
-##### Signal Character
-
-#### 2.1.4 Temperature and Humidity Sensor(DHT11)
-
-##### Working Principle
-
-* The DHT11 is a basic, ultra low-cost digital temperature and humidity sensor. It uses a capacitive humidity sensor and a thermistor to measure the surrounding air, and spits out a digital signal on the data pin (no analog input pins needed).[[1]](http://kookye.com/2018/11/16/arduino-lesson-dht11-sensor/)
+* The DHT11 is a basic, ultra low-cost digital temperature and humidity sensor. It uses a capacitive humidity sensor and a thermistor to measure the surrounding air, and spits out a digital signal on the data pin (no analog input pins needed).[[2]](http://kookye.com/2018/11/16/arduino-lesson-dht11-sensor/)
 
 <div style="text-align: center">
 <img src="Report/dht11-1.jpg"/>
