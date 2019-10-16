@@ -55,15 +55,31 @@
 
 ##### Signal Character
 
-### 2.3 Signal Conditioning and Processing
+#### 2.1.2 Infrared Motion Sensor
 
-### 2.4 Sampling and Quantization
+##### Working Principle
 
-### 2.5 Signal Processing
+##### Signal Character
+
+#### 2.1.3 Photosensitive Light Sensor 
+
+##### Working Principle
+
+##### Signal Character
+
+#### 2.1.4 Temperature and Humidity Sensor
+
+##### Working Principle
+
+##### Signal Character
+
+### 2.2 Circuit Connect
+
+### 2.3 Demo Construction
 
 ---------------------
 
-## 3. Experiments and Results
+## 3. Demo Test
 
 ---------------------
 ## 4. Discussion
