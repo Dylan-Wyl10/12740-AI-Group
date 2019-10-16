@@ -65,7 +65,7 @@
 
 ##### Working Principle
 
-* The Arduino Lesson water sensor is an easily used sensor to detect water with a principle of resistor[[1]](http://kookye.com/2018/11/06/arduino-lesson-water-sensor/). It is tiny and easily installed with the following features: 
+* The Arduino Lesson water sensor(Figure2-2) is an easily used sensor to detect water with a principle of resistor[[1]](http://kookye.com/2018/11/06/arduino-lesson-water-sensor/). It is tiny and easily installed with the following features: 
 
     1).Judge the water level through with a series of exposed parallel wires stitch to measure the water droplet/water size.
     2).Can easily change the water size to analog signal, and output analog value can directly be used in the program function, then to achieve the function of water level alarm.
@@ -73,18 +73,28 @@
 Compatible with SainSmart UNO SainSmart mega2560 SainSmart ADK etc.
 
 <div style="text-align: center">
-<img src="Report/watersensor-1.jpg"/>
+<img src="Report/watersensor-1.jpg"/  width="75%" height="75%" >
 </div>
 
 <center>
    Figure 2-2 Water Level Sensor 
 </center>
 
-##### Signal Character
-
 #### 2.2.2 Infrared Motion Sensor
 
 ##### Working Principle
+
+* PIR Motion Sensor allows to sense motion, almost always used to detect whether a human has moved in or out of the sensors range. They are small, inexpensive, low-power, easy to use and don’t wear out. They are often referred to as PIR, “Passive Infrared”, “Pyroelectric”, or “IR motion” sensors.[[2]](http://kookye.com/2018/11/06/arduino-lesson-pir-motion-sensor/)
+
+* The PIR Motion Sensor is used to detect the motion of human beings around the place. The basic working logic of this sensor is to detect the infrared Body Heat in front of the sensor.(Figure 2-3) It consists of a fresnel lens, an infrared detector, and supporting detection circuitry. The lens on the sensor focuses any infrared radiation present around it towards the infrared detector. Human bodies generate infrared heat which is picked up by the motion sensor. As a result, it outputs a 5V signal for a period of one minute as soon as it detects the presence of a person in a sensitive range of 6-7 meters. 
+
+<div style="text-align: center">
+<img src="Report/PIR-1.jpg"/>
+</div>
+
+<center>
+   Figure 2-3 Working Principle of PIR Motion Sensor 
+</center>
 
 ##### Signal Character
 
@@ -123,11 +133,9 @@ Body Size | 15.5mm×12mm×5.5mm
 Operating Voltage | 3.5V
 Max During Measuring | 2.5mA
 
-##### Signal Character
+### 2.3 Circuit Connect
 
-### 2.2 Circuit Connect
-
-### 2.3 Demo Construction
+### 2.4 Demo Construction
 
 ---------------------
 
