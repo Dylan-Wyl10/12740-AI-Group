@@ -6,7 +6,7 @@
 
 <div class="test">
     <img src="Pht/YLW.JPG" alt="visualization" width="100" height="75" />
-    <img src="Pht/JWW.jpg" alt="visualization" width="100" height="80" />
+    <img src="Pht/JWW.jpg" alt="visualization" width="100" height="75" />
     <img src="Pht/YC.JPG" alt="visualization" width="100" height="75" />
     <img src="Pht/XCW.JPG" alt="visualization" width="100" height="73" />
 </div>
@@ -49,7 +49,11 @@
 
 ### 2.1 Phenomena of Interest
 
-* The aquarium, which can be placed somewhere in the host's house，will automatically adjust the environment such as the water level in the tank. It can also detect the temperature and humidity which will be showing on the moniter terminal. The tank is divided into two seperate parts, one is a mini eco-system of land area and the other is the ocean area. The land area, detected by a light sensor, will be provided light from lamp if the room is dark. We assume the plants in this mirco-system are able to photosynthesize when the host is out of house for a long time. As for the water part, a water-level sensor and a dump are installed to control the water level and keep it fresh. The dump, controled by a relay with the electrical signal from the RPI, is responsible for pumping out unfresh water from the tank. The water-level sensor is used to keep the water level in a stable range. These four sensors operate independently of each other at the same time.
+* The aquarium, which can be placed somewhere in the host's house，will automatically adjust the environment such as the water level in the tank. It can also detect the temperature and humidity which will be showing on the moniter terminal. The tank is divided into two seperate parts, one is a mini eco-system of land area and the other is the ocean area(Figure 1-1). The land area, detected by a light sensor, will be provided light from lamp if the room is dark. We assume the plants in this mirco-system are able to photosynthesize when the host is out of house for a long time. As for the water part, a water-level sensor and a dump are installed to control the water level and keep it fresh. The dump, controled by a relay with the electrical signal from the RPI, is responsible for pumping out unfresh water from the tank. The water-level sensor is used to keep the water level in a stable range. These four sensors operate independently of each other at the same time (Figure 2-1).
+
+<p><img src="xxxxxx" alt="visualization" /></p>
+
+-                              Figure 2-1 Graph for System Working Princple
 
 ### 2.1 Sensor(s) Review
 
@@ -71,9 +75,19 @@
 
 ##### Signal Character
 
-#### 2.1.4 Temperature and Humidity Sensor
+#### 2.1.4 Temperature and Humidity Sensor(DHT11)
 
 ##### Working Principle
+
+* The DHT11 is a basic, ultra low-cost digital temperature and humidity sensor. It uses a capacitive humidity sensor and a thermistor to measure the surrounding air, and spits out a digital signal on the data pin (no analog input pins needed).[[1]](http://kookye.com/2018/11/16/arduino-lesson-dht11-sensor/)
+
+<div align=center>
+    
+![DHT-11](Report/dht11-1.jpg)
+
+</div>
+
+- Figure 2-? DHT11
 
 ##### Signal Character
 
