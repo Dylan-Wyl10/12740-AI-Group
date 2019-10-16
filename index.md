@@ -83,7 +83,7 @@
 
 <div align=center>
     
-![DHT-11](Report/dht11-1.jpg)
+![DHT-11](https://github.com/Dylan-Wyl10/12740-AI-Group/blob/master/Report/dht11-1.jpg)
 
 </div>
 
