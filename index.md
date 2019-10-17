@@ -135,8 +135,6 @@ Power Pin | 4.5 to 20 VDC Supply input
    Figure 2-5 Photoresistor in sensitive light sensor[3]
 </center>
 
-##### Signal Character
-
 #### 2.2.4 Temperature and Humidity Sensor(DHT11)
 
 ##### Working Principle
@@ -237,12 +235,22 @@ LED Strip | 4.5v(3AA)
 </div>
 
 <center>
-   Figure 3-1 Sensor Test of Infrared Sensor and Lightsensitive sensor. 
+   Figure 3-2 Sensor Test of Infrared Sensor and Lightsensitive sensor. 
 </center>
+
+* Water-level sensor detect the water level with the change of resistance 
 
 ### 3.2 Demo Test
 
-A demo was made to realize our thoughts after finishing the sensor test and demo construction. 
+A demo was made to achieve our thoughts after finishing the sensor test and demo construction (Figure3-3). Further test wi
+
+<div style="text-align: center">
+<img src="Report/tank.jpeg"/>
+</div>
+
+<center>
+   Figure 3-3 Demo of Smart Aquarium 
+</center>
 
 ---------------------
 ## 4. Discussion
