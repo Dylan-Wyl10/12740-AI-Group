@@ -257,8 +257,8 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 * When a man comes into the room and walking close to the tank, the Infrared Motion Sensor will dectect and give a signal to the relay, which will light the LED strip up (Figure 3-4). The light will be off in 20 seconds.
 
 <div class="test">
-<img src="Report/test-1.png" width="300" height="225"/>
-<img src="Report/test-2.png" width="300" height="225"/>
+<img src="Report/test-1.png" width="240" height="180"/>
+<img src="Report/test-2.png" width="240" height="180"/>
 </div>
 
 <center>
