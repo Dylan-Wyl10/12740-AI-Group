@@ -182,12 +182,50 @@ Max During Measuring | 2.5mA
    Figure 2-7 Four Way Relay in Circuit 
 </center>
 
+#### 2.3.2 Circuit Modification 
 
-### 2.4 Demo Construction
+* RPI is a single chip microcomputer that can only output a voltage of 3v to 5v, which can supply power to the sensor. However, it cannot provide sufficient working voltage for the feedback device. Table 2-3 shows the rated voltage of feedback loop.
+
+<center>
+   Table 2-3 Rated Working Voltage of Feedback Loop
+</center>
+
+Device | Rated Working Voltage
+------------ | -------------
+Water Dump | 5v（DC）
+LED Strip | 4.5v(3AA)
+
+### 2.4 Demo Construction 
 
 ---------------------
 
-## 3. Demo Test
+## 3. Experiment 
+
+* A series of tests have been pocessed to test the system and programming. We have tested the sensors and the demo during the project work. We mainly focus on sensor perception performance and output results in sensor test while the collaberations of the feedback ciruit are concrened in the Demo Test. 
+
+### 3.1 Sensor Test
+
+* Infrared sensor has a range of detective distance, a fully test is needed to figure out the sensitivity of this sensor. The output signals of this sensor is electrical, We add a print command into the code to output the value on the terminal screen. Using the same methodolodgy to test the lightsensitive sensor (showed in Figure 3-1, 3-2). 
+
+<div style="text-align: center">
+<img src="Report/ifasensortest.png"/>
+</div>
+
+<center>
+   Figure 3-1 Sensor Test of Infrared Sensor and Lightsensitive sensor. 
+</center>
+
+
+<div style="text-align: center">
+<img src="Report/lightsensortest.png"/>
+</div>
+
+<center>
+   Figure 3-1 Sensor Test of Infrared Sensor and Lightsensitive sensor. 
+</center>
+
+### 3.2 Demo Test
+
 
 ---------------------
 ## 4. Discussion
