@@ -242,7 +242,7 @@ LED Strip | 4.5v(3AA)
 
 ### 3.2 Demo Test
 
-A demo was made to achieve our thoughts after finishing the sensor test and demo construction (Figure3-3). Further test will be done to check if the demo works well. We will run all the code and test the functions. The initial stage is an empty room with the light on, the tank was put on a desk.  
+A demo was made to achieve our thoughts after finishing the sensor test and demo construction (Figure3-3). Further test will be done to check if the demo works well. We will run all the code and test the functions. The initial stage is an empty room with the surrounding lights on. Detailed test process is showed on the [video](https://youtu.be/5DWofieF4k4).
 
 <div style="text-align: center">
 <img src="Report/tank.jpeg" width="50%" height="50%"/>
@@ -254,19 +254,33 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 
 #### Infrared Motion Sensor
 
-* When a man comes into the room and walking close to the tank, the Infrared Motion Sensor will dectect and give a signal to the relay, which will light the LED strip. (Figure 3-5)
+* When a man comes into the room and walking close to the tank, the Infrared Motion Sensor will dectect and give a signal to the relay, which will light the LED strip up (Figure 3-4). The light will be off in 20 seconds.
 
 <div class="test">
-<img src="Report/test-1.png" width="50%" height="50%"/>
-<img src="Report/test-2.png" width="50%" height="50%"/>
+<img src="Report/test-1.png" width="40%" height="40%"/>
+<img src="Report/test-2.png" width="40%" height="40%"/>
 </div>
 
 <center>
    Figure 3-4 Infrared Motion Test
 </center>
 
+#### Water Level Sensor
 
+* The water level changes in a certain range instantly and refreshes water automatically with the water-level sensor and the relay. When the water level raises up to the highest level, which is where the sensor are, the pump will be opened by the relay and pumping water for a while (Figure 3-5). 
 
+<div class="test">
+<img src="Report/test-3.png" width="40%" height="40%"/>
+<img src="Report/test-4.png" width="40%" height="40%"/>
+</div>
+
+<center>
+   Figure 3-5 Water Level Test
+</center>
+
+#### Photosensitive Light Sensor
+
+* The users don't have to worry about the plant if they 
 ---------------------
 ## 4. Discussion
 
