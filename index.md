@@ -256,7 +256,7 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 
 * When a man comes into the room and walking close to the tank, the Infrared Motion Sensor will dectect and give a signal to the relay, which will light the LED strip. (Figure 3-5)
 
-<div style="text-align: center">
+<div class="test">
 <img src="Report/test-1.png" width="50%" height="50%"/>
 <img src="Report/test-2.png" width="50%" height="50%"/>
 </div>
@@ -264,6 +264,8 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 <center>
    Figure 3-4 Infrared Motion Test
 </center>
+
+
 
 ---------------------
 ## 4. Discussion
