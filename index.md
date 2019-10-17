@@ -242,26 +242,29 @@ LED Strip | 4.5v(3AA)
 
 ### 3.2 Demo Test
 
-A demo was made to achieve our thoughts after finishing the sensor test and demo construction (Figure3-3). Further test will be done to check if the demo works well. We will run all the code and test the functions. The initial stage is an empty room with the light on, the tank was put on a desk (Figure 3-4).  
+A demo was made to achieve our thoughts after finishing the sensor test and demo construction (Figure3-3). Further test will be done to check if the demo works well. We will run all the code and test the functions. The initial stage is an empty room with the light on, the tank was put on a desk.  
 
 <div style="text-align: center">
 <img src="Report/tank.jpeg" width="50%" height="50%"/>
-<img src="Report/test-1.png" width="50%" height="50%"/>
 </div>
 
 <center>
-   Figure 3-3 Demo of Smart Aquarium 
-</center>
-
-<div style="text-align: center">
-<img src="Report/test-1.png"/>
-</div>
-
-<center>
-   Figure 3-4 Initial Stage of Demo Test
+   Figure 3-3 Demo of Smart Aquarium
 </center>
 
 #### Infrared Motion Sensor
+
+* When a man comes into the room and walking close to the tank, the Infrared Motion Sensor will dectect and give a signal to the relay, which will light the LED strip. (Figure 3-5)
+
+<div style="text-align: center">
+<img src="Report/test-1.png" width="50%" height="50%"/>
+<img src="Report/test-2.png" width="50%" height="50%"/>
+</div>
+
+<center>
+   Figure 3-4 Infrared Motion Test
+</center>
+
 ---------------------
 ## 4. Discussion
 
