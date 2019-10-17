@@ -242,7 +242,7 @@ LED Strip | 4.5v(3AA)
 
 ### 3.2 Demo Test
 
-A demo was made to achieve our thoughts after finishing the sensor test and demo construction (Figure3-3). Further test wi
+A demo was made to achieve our thoughts after finishing the sensor test and demo construction (Figure3-3). Further test will be done to check if the demo works well. 
 
 <div style="text-align: center">
 <img src="Report/tank.jpeg"/>
