@@ -270,8 +270,8 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 * The water level changes in a certain range instantly and refreshes water automatically with the water-level sensor and the relay. When the water level raises up to the highest level, which is where the sensor are, the pump will be opened by the relay and pumping water for a while (Figure 3-5). 
 
 <div class="test">
-<img src="Report/test-3.png" width="40%" height="40%"/>
-<img src="Report/test-4.png" width="40%" height="40%"/>
+<img src="Report/test-3.png" width="400" height="300"/>
+<img src="Report/test-4.png" width="400" height="300"/>
 </div>
 
 <center>
@@ -280,7 +280,16 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 
 #### Photosensitive Light Sensor
 
-* The users don't have to worry about the plant if they 
+* The users don't have to worry about the plant if they go on a long journey away from home becasue the system turn the lamp on to supply light for photosynthesis. The photosensitive light sensor will detect the change of the light in the room and the RPI will decide if the lamp on (Figure 3-6).
+
+<div class="test">
+<img src="Report/test-3.png" width="400" height="300"/>
+<img src="Report/test-4.png" width="400" height="300"/>
+</div>
+
+<center>
+   Figure 3-5 Wa
+
 ---------------------
 ## 4. Discussion
 
