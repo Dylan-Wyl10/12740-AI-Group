@@ -15,7 +15,7 @@
 
 ### [Progress report for the first two weeks](https://dylan-wyl10.github.io/12740/index.html)
 ### [Progress report for week(Oct.6th - Oct.14th)]()
-### [Video]()
+### [Video](https://youtu.be/5DWofieF4k4)
 
 ---------------------
 ## 1. Introduction
