@@ -257,8 +257,8 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 * When a man comes into the room and walking close to the tank, the Infrared Motion Sensor will dectect and give a signal to the relay, which will light the LED strip up (Figure 3-4). The light will be off in 20 seconds.
 
 <div class="test">
-<img src="Report/test-1.png" width="400" height="300"/>
-<img src="Report/test-2.png" width="400" height="300"/>
+<img src="Report/test-1.png" width="360" height="270"/>
+<img src="Report/test-2.png" width="360" height="270"/>
 </div>
 
 <center>
@@ -270,8 +270,8 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 * The water level changes in a certain range instantly and refreshes water automatically with the water-level sensor and the relay. When the water level raises up to the highest level, which is where the sensor are, the pump will be opened by the relay and pumping water for a while (Figure 3-5). 
 
 <div class="test">
-<img src="Report/test-3.png" width="400" height="300"/>
-<img src="Report/test-4.png" width="400" height="300"/>
+<img src="Report/test-3.png" width="360" height="270"/>
+<img src="Report/test-4.png" width="360" height="270"/>
 </div>
 
 <center>
@@ -283,8 +283,8 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 * The users don't have to worry about the plant if they go on a long journey away from home becasue the system turn the lamp on to supply light for photosynthesis. The photosensitive light sensor will detect the change of the light in the room and the RPI will decide if the lamp on (Figure 3-6).
 
 <div class="test">
-<img src="Report/Photosensitive.jpeg" width="400" height="300"/>
-<img src="Report/photosensitivedark.png" width="400" height="300"/>
+<img src="Report/Photosensitive.jpeg" width="360" height="270"/>
+<img src="Report/photosensitivedark.png" width="360" height="270"/>
 </div>
 
 <center>
