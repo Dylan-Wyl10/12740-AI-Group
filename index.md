@@ -197,6 +197,22 @@ LED Strip | 4.5v(3AA)
 
 ### 2.4 Demo Construction 
 
+<div style="text-align: center">
+<img src="Report/connectedsensor.jpeg>
+</div>
+
+<center>
+   Figure 2-8 Connected Sensor
+</center>
+
+<div style="text-align: center">
+<img src="Report/demoundcon.jpeg>
+</div>
+
+<center>
+   Figure 2-9 Demo before Final Construction
+</center>
+
 ---------------------
 
 ## 3. Experiment 
@@ -226,6 +242,7 @@ LED Strip | 4.5v(3AA)
 
 ### 3.2 Demo Test
 
+A demo was made to realize our thoughts after finishing the sensor test and demo construction. 
 
 ---------------------
 ## 4. Discussion
