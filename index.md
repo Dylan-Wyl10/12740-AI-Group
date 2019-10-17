@@ -198,7 +198,7 @@ LED Strip | 4.5v(3AA)
 ### 2.4 Demo Construction 
 
 <div style="text-align: center">
-<img src="Report/connectedsensor.jpeg>
+<img src="Report/connectedsensor.jpeg">
 </div>
 
 <center>
@@ -206,7 +206,7 @@ LED Strip | 4.5v(3AA)
 </center>
 
 <div style="text-align: center">
-<img src="Report/demoundcon.jpeg>
+<img src="Report/demoundcon.jpeg">
 </div>
 
 <center>
