@@ -245,8 +245,8 @@ LED Strip | 4.5v(3AA)
 A demo was made to achieve our thoughts after finishing the sensor test and demo construction (Figure3-3). Further test will be done to check if the demo works well. We will run all the code and test the functions. The initial stage is an empty room with the light on, the tank was put on a desk (Figure 3-4).  
 
 <div style="text-align: center">
-<img src="Report/tank.jpeg"/>
-<img src="Report/test-1.png"/>
+<img src="Report/tank.jpeg" width="50%" height="50%"/>
+<img src="Report/test-1.png" width="50%" height="50%"/>
 </div>
 
 <center>
