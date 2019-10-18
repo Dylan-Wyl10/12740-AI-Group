@@ -203,7 +203,7 @@ BCM method was used to write Python code and control the communication process b
 </center>
 
 <div style="text-align: center">
-<img src="/Report/drillacrylic.jpeg" width="50%" height="50%"/>
+<img src="Report/drillacrylic.jpeg" width="50%" height="50%"/>
 </div>
 
 <center>
@@ -301,7 +301,7 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 
 * The DHT-11 was used as a monitor to detect the temperature and humidity in the tank with a connection to Openchirp platform. It will collect and restore the data (Figure 3-7). The code is attached.
 
-<div class="text-align: center">
+<div style="text-align: center">
 <img src="Report/Openchirp.png" width="240" height="180"/>
 </div>
 
