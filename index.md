@@ -2,6 +2,8 @@
 # Smart Aquarium
 ## 12740-F19-Project
 
+### Group id:AI
+
 ### Group Member: 
 
 <div class="test">
@@ -14,8 +16,12 @@
 #### [Yilin Wang](mailto:yilinw2@andrew.cmu.edu), [Jiangwen Wei](mailto:jiangwew@andrew.cmu.edu), [Yue Cao](mailto:yuec3@andrew.cmu.edu), [Xiangchao Wang](mailto:xiangchw@andrew.cmu.edu)
 
 ### [Progress report for the first two weeks](https://dylan-wyl10.github.io/12740/index.html)
+
 ### [Progress report for week(Oct.6th - Oct.14th)](https://dylan-wyl10.github.io/12740/report2.html)
-### [Video](https://youtu.be/5DWofieF4k4)
+
+### Video [Click here](https://youtu.be/5DWofieF4k4)
+
+{% include youtubePlayer.html id=page.youtubeId %}<br />
 
 ---------------------
 ## 1. Introduction
