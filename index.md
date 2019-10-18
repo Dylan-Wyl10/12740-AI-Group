@@ -73,7 +73,7 @@
 Compatible with SainSmart UNO SainSmart mega2560 SainSmart ADK etc.
 
 <div style="text-align: center">
-<img src="Report/watersensor-1.jpg"/  width="75%" height="75%" >
+<img src="Report/watersensor-1.jpg"/  width="75%" height="75%"/>
 </div>
 
 <center>
