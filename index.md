@@ -173,7 +173,7 @@ Max During Measuring | 2.5mA
 * A four way relay(Figure 2-7) will be used to control the feedback loop such as dump, LED light strip and light supply lamp when the RPI outputs a change of voltage to the repay after processing the data from each sensors. 
 
 <div style="text-align: center">
-<img src="Report/Relay-2.jpeg"/>
+<img src="Report/Relay-2.jpeg" width="50%" height="50%"/>
 </div>
 
 <center>
@@ -192,7 +192,7 @@ BCM method was used to write Python code and control the communication process b
 
 * Then we connect the ADC module according to the tutorial from Kookye Kit official website to make it work normally, and connect the sensors and relays in Raspberry Pi circuit according to the GPIO number in code, by which our group achieve the working of system controlled by terminal.
 
-* All parts should be put into together after the coding and circuit design (Figure2- ). We built a tank with glass plate and acrylic plate with drills as a partition of water area and land area. The demo was made in the makeplace of ECE department with the guidence of the assistant there. After finishing the physical model, we fixed all the lines and RPI for the demo test (Figure 2-10). 
+* All parts should be put into together after the coding and circuit design (Figure 2-8). We built a tank with glass plate and acrylic plate with drills as a partition of water area and land area (Figure 2-9). The demo was made in the makeplace of ECE department with the guidence of the assistant there. After finishing the physical model, we fixed all the lines and RPI for the demo test (Figure 2-10). 
 
 <div style="text-align: center">
 <img src="Report/connectedsensor.jpeg" width="50%" height="50%"/>
@@ -203,7 +203,7 @@ BCM method was used to write Python code and control the communication process b
 </center>
 
 <div style="text-align: center">
-<img src="drillacrylic.jpeg" width="50%" height="50%"/>
+<img src="/Report/drillacrylic.jpeg" width="50%" height="50%"/>
 </div>
 
 <center>
@@ -263,8 +263,8 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 * When a man comes into the room and walking close to the tank, the Infrared Motion Sensor will dectect and give a signal to the relay, which will light the LED strip up (Figure 3-4). The light will be off in 20 seconds.
 
 <div class="test">
-<img src="Report/test-1.png" width="240" height="180"/>
-<img src="Report/test-2.png" width="240" height="180"/>
+<img src="Report/test-1.png" width="260" height="195"/>
+<img src="Report/test-2.png" width="260" height="195"/>
 </div>
 
 <center>
@@ -295,6 +295,7 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 
 <center>
    Figure 3-6 Light Sensor Test 
+</center>
 
 #### DHT-11 Temperature and Humidity Sensor
 
@@ -306,20 +307,18 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 
 <center>
    Figure 3-7 Openchirp Operation 
+</center>
 
 * The users have the access Openchirp to see the trendancy and graph of the changes in Temperature and Humidity. It is convinent than an "ssh" connection since one can access the data anywhere. 
 
 ---------------------
 ## 4. Discussion
 
+1. We have been able to monitor data through openchirp. It is hoped to further develop a mobile application to attach to the server with a better UI to multiple the devices in tank. 
 
-```markdown
+2. Due to limited funds, we only used one water pump for the test. In fact, as long as there are two pumps with a common set of code, only one is located in the water tank and the other is placed in the water supply source, the functions of pumping water and absorbing water can be realized, thus realizing the real sense of automatic water change.
 
-import numpy as np
-def indf():
-    eee
-    eee
-    
-```
+3. A lot of room can be improved in product design. For example, we can add more waterproof measures to the wire, seal the wire, and wrap the exposed wire; Choose more beautiful light source and provide Wifi connection function; Blend in ecology design on the appearance, let our aquatic animals box have life breath. In order to prepare for further commercialization.
 
+4. Some of the sensors are too sensitive, for example, the infrared sensors are too sensitive, while some are too low, which do not meet our expectations. We want to be able to calibrate the sensors so that they do what we want them to do.
 
