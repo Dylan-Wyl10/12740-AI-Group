@@ -270,8 +270,8 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 * The water level changes in a certain range instantly and refreshes water automatically with the water-level sensor and the relay. When the water level raises up to the highest level, which is where the sensor are, the pump will be opened by the relay and pumping water for a while (Figure 3-5). 
 
 <div class="test">
-<img src="Report/test-3.png" width="360" height="270"/>
-<img src="Report/test-4.png" width="360" height="270"/>
+<img src="Report/test-3.png" width="240" height="180"/>
+<img src="Report/test-4.png" width="240" height="180"/>
 </div>
 
 <center>
@@ -283,12 +283,25 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 * The users don't have to worry about the plant if they go on a long journey away from home becasue the system turn the lamp on to supply light for photosynthesis. The photosensitive light sensor will detect the change of the light in the room and the RPI will decide if the lamp on (Figure 3-6).
 
 <div class="test">
-<img src="Report/Photosensitive.jpeg" width="360" height="270"/>
-<img src="Report/photosensitivedark.png" width="360" height="270"/>
+<img src="Report/Photosensitive.jpeg" width="240" height="180"/>
+<img src="Report/photosensitivedark.png" width="240" height="180"/>
 </div>
 
 <center>
-   Figure 3-5 Wa
+   Figure 3-6 Light Sensor Test 
+
+#### DHT-11 Temperature and Humidity Sensor
+
+* The DHT-11 was used as a monitor to detect the temperature and humidity in the tank with a connection to Openchirp platform. It will collect and restore the data (Figure 3-7). The code is attached.
+
+<div class="center">
+<img src="Report/Openchirp.png" width="240" height="180"/>
+</div>
+
+<center>
+   Figure 3-7 Openchirp Operation 
+
+* The users have the access Openchirp to see the trendancy and graph of the changes in Temperature and Humidity. It is convinent than an "ssh" connection since one can access the data anywhere. 
 
 ---------------------
 ## 4. Discussion
