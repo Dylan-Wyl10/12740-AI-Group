@@ -164,7 +164,7 @@ Body Size | 15.5mm×12mm×5.5mm
 Operating Voltage | 3.5V
 Max During Measuring | 2.5mA
 
-### 2.3 Circuit Connect
+### 2.3 Demo Construction
 
 #### 2.3.1 Relay Circuit 
 
@@ -180,23 +180,22 @@ Max During Measuring | 2.5mA
    Figure 2-7 Four Way Relay in Circuit 
 </center>
 
-#### 2.3.2 Circuit Modification 
+* Three of four channels were used in the relay. The first one is connected to water pump, the second is connected to ornamental light and the last one third is connected to LED bulb. All three channels’ wires are tied to the normal open circuit (middle and right screw). If raspberry pi send low level electronic signal, the switch inside relay will close and the corresponding external element circuit is accessed, then the corresponding element will start to work. If the signal is high level, the circuit will open and elements stop working.
 
-* RPI is a single chip microcomputer that can only output a voltage of 3v to 5v, which can supply power to the sensor. However, it cannot provide sufficient working voltage for the feedback device. Table 2-3 shows the rated voltage of feedback loop.
+* Notice that all three external electronic elements need external power source. Water pump is supplied by five-volt direct current, relay and water pump are in series. Twp screws in the first channel are connected by wire in this circuit. Ornamental light is supplied by three AA batteries, the second way is occupied with two screws,too. LED bulb, supplied by raspberry pi in breadboard, is connected to the anode in breadboard with anode light. Cathode of LED is connected to the right screw of third channel of relay and middle screw is connected to the cathode of breadboard.
 
-<center>
-   Table 2-3 Rated Working Voltage of Feedback Loop
-</center>
+#### 2.3.2 Sensor Programming 
 
-Device | Rated Working Voltage
------------- | -------------
-Water Dump | 5v（DC）
-LED Strip | 4.5v(3AA)
+BCM method was used to write Python code and control the communication process between sensors and Raspberry Pi. DHT11 temperature & humidity sensor and infrared sensor can directly send digital signals that could be read by Raspberry Pi while  photosensitive and water level sensor, on the other hand, can only send analog signals instead. It means that we need add an Analog to Digital Convert (ADC) and write extra Python method named read_adc_value to convert analog signal to digital signal. After receiving signal value, RPI is required to send command to control relays. Then we connect the ADC module according to the tutorial from Kookye Kit official website to make it work normally, and connect the sensors and relays in Raspberry Pi circuit according to the GPIO number in code, by which our group achieve the working of system controlled by terminal.
 
-### 2.4 Demo Construction 
+#### 2.3.3 Demo Assembly
+
+* Then we connect the ADC module according to the tutorial from Kookye Kit official website to make it work normally, and connect the sensors and relays in Raspberry Pi circuit according to the GPIO number in code, by which our group achieve the working of system controlled by terminal.
+
+* All parts should be put into together after the coding and circuit design (Figure2- ). We built a tank with glass plate and acrylic plate with drills as a partition of water area and land area. The demo was made in the makeplace of ECE department with the guidence of the assistant there. After finishing the physical model, we fixed all the lines and RPI for the demo test (Figure 2-10). 
 
 <div style="text-align: center">
-<img src="Report/connectedsensor.jpeg">
+<img src="Report/connectedsensor.jpeg" width="50%" height="50%"/>
 </div>
 
 <center>
@@ -204,11 +203,19 @@ LED Strip | 4.5v(3AA)
 </center>
 
 <div style="text-align: center">
-<img src="Report/demoundcon.jpeg">
+<img src="drillacrylic.jpeg" width="50%" height="50%"/>
 </div>
 
 <center>
-   Figure 2-9 Demo before Final Construction
+   Figure 2-9 Acrylic Plate
+</center>
+
+<div style="text-align: center">
+<img src="Report/demoundcon.jpeg" width="50%" height="50%"/>
+</div>
+
+<center>
+   Figure 2-10 Demo before Final Construction
 </center>
 
 ---------------------
@@ -228,7 +235,6 @@ LED Strip | 4.5v(3AA)
 <center>
    Figure 3-1 Sensor Test of Infrared Sensor and Lightsensitive sensor. 
 </center>
-
 
 <div style="text-align: center">
 <img src="Report/lightsensortest.png"/>
@@ -294,7 +300,7 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 
 * The DHT-11 was used as a monitor to detect the temperature and humidity in the tank with a connection to Openchirp platform. It will collect and restore the data (Figure 3-7). The code is attached.
 
-<div class="center">
+<div class="text-align: center">
 <img src="Report/Openchirp.png" width="240" height="180"/>
 </div>
 
