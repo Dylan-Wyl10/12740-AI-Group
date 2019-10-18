@@ -263,8 +263,8 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 * When a man comes into the room and walking close to the tank, the Infrared Motion Sensor will dectect and give a signal to the relay, which will light the LED strip up (Figure 3-4). The light will be off in 20 seconds.
 
 <div class="test">
-<img src="Report/test-1.png" width="260" height="195"/>
-<img src="Report/test-2.png" width="260" height="195"/>
+<img src="Report/test-1.png" width="280" height="210"/>
+<img src="Report/test-2.png" width="280" height="210"/>
 </div>
 
 <center>
@@ -276,8 +276,8 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 * The water level changes in a certain range instantly and refreshes water automatically with the water-level sensor and the relay. When the water level raises up to the highest level, which is where the sensor are, the pump will be opened by the relay and pumping water for a while (Figure 3-5). 
 
 <div class="test">
-<img src="Report/test-3.png" width="240" height="180"/>
-<img src="Report/test-4.png" width="240" height="180"/>
+<img src="Report/test-3.png" width="280" height="210"/>
+<img src="Report/test-4.png" width="280" height="210"/>
 </div>
 
 <center>
@@ -289,8 +289,8 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 * The users don't have to worry about the plant if they go on a long journey away from home becasue the system turn the lamp on to supply light for photosynthesis. The photosensitive light sensor will detect the change of the light in the room and the RPI will decide if the lamp on (Figure 3-6).
 
 <div class="test">
-<img src="Report/Photosensitive.jpeg" width="240" height="180"/>
-<img src="Report/photosensitivedark.png" width="240" height="180"/>
+<img src="Report/Photosensitive.jpeg" width="280" height="210"/>
+<img src="Report/photosensitivedark.png" width="280" height="210"/>
 </div>
 
 <center>
@@ -302,7 +302,7 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 * The DHT-11 was used as a monitor to detect the temperature and humidity in the tank with a connection to Openchirp platform. It will collect and restore the data (Figure 3-7). The code is attached.
 
 <div style="text-align: center">
-<img src="Report/Openchirp.png" width="240" height="180"/>
+<img src="Report/Openchirp.png" width="280" height="210/>
 </div>
 
 <center>
@@ -322,3 +322,7 @@ A demo was made to achieve our thoughts after finishing the sensor test and demo
 
 4. Some of the sensors are too sensitive, for example, the infrared sensors are too sensitive, while some are too low, which do not meet our expectations. We want to be able to calibrate the sensors so that they do what we want them to do.
 
+## 5.Reference
+
+* [Sensor toturial for kookye box](http://kookye.com/2016/08/01/smart-home-sensor-kit-for-arduinoraspberry-pi/)
+* [What is a relay for Wiki-pedia](https://en.wikipedia.org/wiki/Relay)
