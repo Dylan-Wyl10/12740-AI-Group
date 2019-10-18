@@ -14,7 +14,7 @@
 #### [Yilin Wang](mailto:yilinw2@andrew.cmu.edu), [Jiangwen Wei](mailto:jiangwew@andrew.cmu.edu), [Yue Cao](mailto:yuec3@andrew.cmu.edu), [Xiangchao Wang](mailto:xiangchw@andrew.cmu.edu)
 
 ### [Progress report for the first two weeks](https://dylan-wyl10.github.io/12740/index.html)
-### [Progress report for week(Oct.6th - Oct.14th)](https://Jiangwen517.github.io/12740/index.html)
+### [Progress report for week(Oct.6th - Oct.14th)](https://dylan-wyl10.github.io/12740/report2.html)
 ### [Video](https://youtu.be/5DWofieF4k4)
 
 ---------------------
